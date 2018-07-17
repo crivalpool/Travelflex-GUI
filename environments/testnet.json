@@ -1,0 +1,15 @@
+{
+  "ENV": {
+    "environment": "testnet",
+    "isTestnet": true,
+    "explorerUrl": "hub.travelflex.app:4000",
+    "TIMESTAMPER_ADDRESS": "OPNUXBRSSQQGHKQNEPD2GLWQYEUY5XLD",
+    "hub": "hub.travelflex.app",
+    "MERCHANT_INTEGRATION_API" : "https://test-api.dagpay.io/api/invoices",
+    "projectNumber": "459454964929",
+    "universalLinkHost": "hub.travelflex.app:4000",
+    "FAUCET_CORRESPONDENCE_CODE": "A6thOoiPnsPGKgMj4G/OYkh4d7WR/MX3r1k2tG/WJPof@hub.travelflex.app:4000/#0000",
+    "FAUCET_ADDRESS": "0JMVEW6BBLT26R5C66HRN7YAP2Z77XCX7",
+    "applicationName": "TravelFlex-Tn"
+  }
+}

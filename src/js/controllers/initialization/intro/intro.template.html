@@ -1,0 +1,61 @@
+<div class="intro_content content newIntroContent">
+    <button ng-show="intro.active_index !== 2" ui-sref="intro_confirm" class="btn btn_red skip_button">Skip</button>
+
+    <div class="intro_content_body">
+        <div class="icons_states_swiper">
+            <ks-swiper-container pagination-is-active="true"
+                                 swiper="intro.swiper"
+                                 on-ready="intro.onReadySwiper(swiper)"
+                                 override-parameters="{'slidesPerView': 1, 'spaceBetween': 0, 'centeredSlides': true}">
+                <ks-swiper-slide class="swiper-slide">
+                    <!--<dag-state-icon icon="safe"></dag-state-icon>-->
+                  <div class="intro-img-wrapper">
+                    <img src="../../../../../public/img/secure.jpg" alt="secure">
+                    <h3 class="swiperSlideInfo">
+                      TravelFlex is secure
+                    </h3>
+                    <div class="layer"></div>
+                    <div class="layer-2"></div>
+                  </div>
+                    <div class="icons_states_swiper_info">
+                        <p class="about-text">This app stores your TravelTlexs<br/> with cutting-edge state of the art security.</p>
+                    </div>
+                </ks-swiper-slide>
+                <ks-swiper-slide class="swiper-slide">
+                    <!--<dag-state-icon icon="transfer"></dag-state-icon>-->
+                  <div class="intro-img-wrapper">
+                    <img src="../../../../../public/img/fast.jpg" alt="fast">
+                    <h3 class="swiperSlideInfo">
+                      TravelFlex is darn fast
+                    </h3>
+                    <div class="layer"></div>
+                    <div class="layer-2"></div>
+                  </div>
+                    <div class="icons_states_swiper_info">
+                        <p>Up to 300x faster<br/> than most alternative solutions!</p>
+                    </div>
+                </ks-swiper-slide>
+                <ks-swiper-slide class="swiper-slide">
+                    <!--<dag-state-icon icon="business"></dag-state-icon>-->
+                  <div class="intro-img-wrapper">
+                    <img src="../../../../../public/img/foryou.jpg" alt="foryou">
+                    <h3 class="swiperSlideInfo">
+                      TravelFlex is right for you
+                    </h3>
+                    <div class="layer"></div>
+                    <div class="layer-2"></div>
+                  </div>
+                    <div class="icons_states_swiper_info">
+                        <p>We listen to our community<br/> to deliver the best product on the market!</p>
+                    </div>
+                </ks-swiper-slide>
+            </ks-swiper-container>
+        </div>
+
+        <div class="intro_content_trigger">
+            <button ng-show="intro.active_index === 0" ng-click="intro.nextSlide()" class="btn btn_red">Got it</button>
+            <button ng-show="intro.active_index === 1" ng-click="intro.nextSlide()" class="btn btn_red">Awesome</button>
+            <button ng-show="intro.active_index === 2" ui-sref="intro_confirm" class="btn btn_red-full">Create wallet</button>
+        </div>
+    </div>
+</div>

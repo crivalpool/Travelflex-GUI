@@ -70,7 +70,7 @@ Then run TravelFlex desktop client:
 ### Windows
 
 - `grunt desktop`
-- copy `node_modules` into the app bundle ../byteballbuilds/Byteball/win64, except those that are important only for development (karma, grunt, jasmine)
+- copy `node_modules` into the app bundle ../travelflexbuilds/Travelflex/win64, except those that are important only for development ( grunt, jasmine)
 - `grunt inno64`
 
 ## About TravelFlex

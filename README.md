@@ -5,7 +5,7 @@
 
 ## Main Features
 
-TBD
+Travelflex is a new cryptocurrency that is aiming to solve the scalability issues that other coins like Bitcoin are facing at the moment. By using a complete new DAG based algorithm.
 
 ## Installation
 
@@ -14,7 +14,7 @@ Download and install [NW.js v0.14.7 LTS](https://dl.nwjs.io/v0.14.7) and [Node.j
 Clone the source:
 
 ```sh
-git clone https://github.com/travelflex/travelflex.git
+git clone https://github.com/TravelFlex/Travelflex-DAG.git
 cd travelflex
 ```
 

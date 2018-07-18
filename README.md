@@ -1,7 +1,5 @@
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/travelflex/localized.svg)](https://crowdin.com/project/travelflex)
 
-[![Build Status](https://travis-ci.org/travelflex/travelflex.svg?branch=master)](https://travis-ci.org/travelflex/travelflex)
-
+Explorer: http://explorer.travelflex.app/
 
 ## Main Features
 

@@ -1,8 +1,8 @@
 {
-  "name": "travelflex-wallet-tn",
+  "name": "travelflex-wallet",
   "description": "A wallet for decentralized value",
   "author": "TravelFlex",
-  "version": "2.0.1t",
+  "version": "2.0.1",
   "keywords": [
     "wallet",
     "travelflex",
@@ -20,7 +20,8 @@
     "width": 400,
     "height": 600,
     "position": "center",
-    "fullscreen": false
+    "fullscreen": false,
+	 "toolbar": true
   },
   "webkit": {
     "page-cache": false,

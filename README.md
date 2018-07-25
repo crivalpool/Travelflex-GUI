@@ -1,9 +1,12 @@
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/travelflex/localized.svg)](https://crowdin.com/project/travelflex)
 
-Explorer: http://explorer.travelflex.app/
+[![Build Status](https://travis-ci.org/travelflex/travelflex.svg?branch=master)](https://travis-ci.org/travelflex/travelflex)
+
+TravelFlex as cryptocurrency is built on a new technology called TRF chain, offering scalable, low cost and secure payments. TravelFlex uses byteball network as an underlying platform. Our mission is to provide alternative currency for everyday using, focusing on Asian market to help unbanked people manage their funds better. By doing that, TravelFlex will be the most widely used open source cryptocurrency in the world.
 
 ## Main Features
 
-Travelflex is a new cryptocurrency that is aiming to solve the scalability issues that other coins like Bitcoin are facing at the moment. By using a complete new DAG based algorithm.
+TBD
 
 ## Installation
 
@@ -12,7 +15,7 @@ Download and install [NW.js v0.14.7 LTS](https://dl.nwjs.io/v0.14.7) and [Node.j
 Clone the source:
 
 ```sh
-git clone https://github.com/TravelFlex/Travelflex-DAG.git
+git clone https://github.com/travelflex/travelflex.git
 cd travelflex
 ```
 
@@ -68,7 +71,7 @@ Then run TravelFlex desktop client:
 ### Windows
 
 - `grunt desktop`
-- copy `node_modules` into the app bundle ../travelflexbuilds/Travelflex/win64, except those that are important only for development ( grunt, jasmine)
+- copy `node_modules` into the app bundle ../byteballbuilds/Byteball/win64, except those that are important only for development (karma, grunt, jasmine)
 - `grunt inno64`
 
 ## About TravelFlex
@@ -106,7 +109,7 @@ This will download all partial and complete language translations while also cle
 
 ## Credits
 
-
+TravelFlex is based on [Byteball](https://byteball.org/)
 ## License
 
 MIT.
